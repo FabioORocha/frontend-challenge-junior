@@ -12,7 +12,7 @@ Projeto desenvolvido para a vaga de front-end júnior Vndas
 
 ##### Plugins
 
--Aos.js
+- Aos.js
 
 ## Instalação
 
@@ -33,5 +33,7 @@ E depois gulp
 ```
 gulp
 ```
+
+Ou para visualizar o projeto apenas, clone o mesmo e acesse a index.html na pasta dist.
 
 
