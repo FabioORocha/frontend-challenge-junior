@@ -2,7 +2,7 @@
 
 ### Fábio Oliveira da Rocha
 #
-Projeto desenvolvido para a vaga de front-end júnior Vndas
+Projeto desenvolvido para a vaga de Front-end Júnior Vndas
 
 ### Tecnologias
 - Html
@@ -16,7 +16,7 @@ Projeto desenvolvido para a vaga de front-end júnior Vndas
 
 ## Instalação
 
-Para executar o projeto, basta fazer o clone deste repositorio com:
+Para executar o projeto, basta fazer o clone deste repositório com:
 
 ```
 git clone https://github.com/FabioORocha/frontend-challenge-junior.git
@@ -28,7 +28,7 @@ E na pasta src executar:
 npm install
 ```
 
-E depois gulp
+E depois gulp:
 
 ```
 gulp
