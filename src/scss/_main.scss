@@ -1,0 +1,533 @@
+.main{
+
+    @include breakpoint-up(large) { //desktop
+
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+
+	}
+
+    @include breakpoint-down(medium) { //mobile
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+
+
+    .section1{
+
+        .swiper{
+
+            @include breakpoint-up(large) { //desktop
+
+                margin-top: 6.25rem;
+
+            }
+
+            @include breakpoint-down(medium) { //mobile
+                
+                margin-top: 2rem;
+
+            }
+
+            .swiper-slide img {
+    
+                object-fit: cover;
+
+                
+    
+                @include breakpoint-up(large) { //desktop
+                    
+                    max-width: 90rem;
+                    max-height: 56.25rem;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+    
+                }
+        
+                @include breakpoint-down(medium) { //mobile
+        
+                    width: 100%;
+                    height: 31.25rem;
+                    object-fit: cover;
+                }
+     
+            }
+    
+        }
+    
+        .roundBanner{
+
+            @include breakpoint-up(large) { //desktop
+
+                margin-top: 5rem;
+
+            }
+
+            @include breakpoint-down(medium) { //mobile
+
+                margin-top: 1rem;
+
+            }
+    
+            
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+    
+            background-color: $MistyRose;
+
+            @include shadowBox();
+
+            
+            a:hover {
+                animation: bounce 1.5s ease-in-out;
+            }
+    
+            img{
+    
+                border-radius: 50%;
+    
+                @include breakpoint-up(large) { //desktop
+               
+                    width: 9.375rem;
+                    height: 9.375rem;
+                
+                }
+    
+                @include breakpoint-down(medium) { //mobile
+    
+                    width: 3.125rem;
+                    height: 3.125rem;
+    
+                }
+            
+            }
+    
+        }
+    }
+    
+    .section2{
+
+        @include shadowBox();
+        background-color: $NadeshikoPink;
+        border-radius: 0.3125rem;
+
+        .arrowDown img{
+            margin-bottom: -8rem;
+            font-size: 4rem;  
+        }
+
+
+        //Desktop
+        @include breakpoint-up(large) { 
+
+            //Interface Desktop
+
+            display:grid;
+            grid-template-columns: 50% 25% 25%;
+            height: 31.25rem;
+ 
+            margin-top: 18.75rem;
+            padding: 1rem 1rem;
+
+
+            p{
+                padding: 1.875rem;
+                text-align: justify;
+            }
+
+            h2{
+                padding-left: 1.875rem;
+                padding-right: 1.875rem;
+                text-align: justify;
+            }
+
+
+
+            .card1{
+
+                width: 95%;
+                height: 25rem;
+                padding: 0.3125rem;
+                background-color: $PowerBlue;
+                border-radius: 0.3125rem;
+                margin-top: 45%;
+
+                img{
+                    width: 100%;
+                    height: 75%;
+                }
+
+                .card__content{
+
+                text-align: center;
+                }  
+            }
+
+            .card2{
+
+                width: 95%;
+                height: 15.625rem;
+                padding: 0.3125rem;
+                background-color: $PowerBlue;
+                border-radius: 0.3125rem;
+                margin-top: 2%;
+
+                img{
+                    width: 100%;
+                    height: 75%;
+                }
+
+                .card__content{
+
+                    text-align: center;
+                }  
+            }
+
+            .card3{
+
+                width: 95%;
+                height: 25rem;
+                padding: 0.3125rem;
+                background-color: $PowerBlue;
+                border-radius: 0.3125rem;
+                margin-top: 5%;
+
+                img{
+                    width: 100%;
+                    height: 75%;
+                }
+
+                .card__content{
+
+                    text-align: center;
+                }  
+            }
+
+        }
+
+        //mobile
+        @include breakpoint-down(medium) { 
+        
+            //interface mobile
+
+            text-align: center;
+            padding: 1.875rem;
+
+            margin-top: 5rem;
+            padding: 2rem;
+
+            text-align: justify;
+
+            .arrowDown img{
+                visibility: hidden;
+            }
+
+
+            .card1{
+
+                width: 95%;
+                height: 25rem;
+                padding: 0.3125rem;
+                background-color: $PowerBlue;
+                border-radius: 0.3125rem;
+                margin-top: 5%;
+
+                margin-left: auto;
+                margin-right: auto;
+
+
+                img{
+                    width: 100%;
+                    height: 75%;
+                }
+
+                .card__content{
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }  
+            }
+
+            .card2{
+
+                width: 95%;
+                height: 25rem;
+                padding: 0.3125rem;
+                background-color: $PowerBlue;
+                border-radius: 0.3125rem;
+                margin-top: 5%;
+
+                margin-left: auto;
+                margin-right: auto;
+
+                img{
+                    width: 100%;
+                    height: 75%;
+                }
+
+                .card__content{
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }  
+            }
+
+            .card3{
+
+                width: 95%;
+                height: 25rem;
+                padding: 0.3125rem;
+                background-color: $PowerBlue;
+                border-radius: 0.3125rem;
+                margin-top: 5%;
+
+                margin-left: auto;
+                margin-right: auto;
+
+                img{
+                    width: 100%;
+                    height: 75%;
+                }
+
+                .card__content{
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }  
+            }
+                
+        }
+
+        
+
+    }
+
+    .section3{
+
+
+        @include shadowBox();
+        background-color: $NadeshikoPink;
+        border-radius: 5px;
+
+        @include breakpoint-up(large) { //desktop
+
+            //Interface Desktop
+
+            position: relative;
+
+            display:grid;
+            grid-template-columns: 30% 40% 30%;
+
+            width: 90%;
+            height: 31.25rem;   
+
+            margin-top: 31.25rem;
+            
+            .grid1{
+
+                img{
+
+                    padding: 3rem;
+                    width: 99%;
+                    height: 31.1875rem;
+                }
+
+            }
+
+            .grid2{
+
+                position: sticky;
+
+                padding: 1.875rem;
+
+                justify-content: flex-start;
+                align-items: flex-start; 
+
+
+                button{
+    
+                    width: 12.5rem;
+                    height: 3.125rem;
+                    border-radius: 0.3125rem;
+                    background-color: black;
+                    color: $White;
+                }
+
+            }
+
+            .grid3{
+
+                .productSwiper{
+
+                    position: sticky;
+     
+                    .swiper-slide img {
+    
+                        padding-top: 100px;
+                        padding-bottom: 100px;
+                        padding-left: 5px;
+                        width: 420px;
+                        height: 300px;
+        
+                    }
+        
+                }
+            }
+
+        }
+
+        @include breakpoint-down(medium) { //mobile
+            
+            //interface mobile
+
+            width: 100%;
+            height: 100%;
+
+            margin-top: 5rem;
+
+            .grid1{
+
+                img{
+
+                    padding: 2rem;
+                    width: 99%;
+                    height: 31.25rem;
+                }
+
+            }
+
+            .grid2{
+
+                padding: 2rem;
+                text-align: justify;
+
+                button{
+        
+                    width: 12.5rem;
+                    height: 3.125rem;
+                    border-radius: 0.3125rem;
+                    background-color: black;
+                    color: $White;
+                }
+
+            }
+
+            .grid3{
+
+
+                .swiper-slide img {
+                    
+                    padding-top: 2rem;
+                    padding-bottom: 2rem;
+                    width: 100%;
+                    height: 18rem;
+            
+                }
+            
+
+            }
+              
+        }
+  
+    }
+
+    .section4{
+
+        img{
+            @include shadowBox();
+        }
+
+        .publi{
+
+            background-color: $PowerBlue; 
+            @include shadowBox();
+
+            padding: 1rem;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            width: 18.75rem;
+            height: 18.75rem; 
+        }
+
+        @include breakpoint-up(large) { //desktop
+
+            //Interface desktop
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            justify-content: center;
+
+            margin-top: 18.75rem;
+            margin-left: auto;
+            margin-right: auto;
+
+            display:grid;
+            grid-template-columns: 25% 25% 25%;
+            grid-column-gap: 2.125rem;
+
+            
+
+            img{
+                width: 100%;
+                height: 100%;
+
+            }
+
+
+            .grid2{
+
+                margin-top: 12.5rem;
+                padding: 0.3125rem;
+
+
+                h3{
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding-bottom: 3.75rem;
+                }
+            
+                .publi{
+
+                    margin-bottom: 10rem;
+
+                }
+            }
+        }
+
+        @include breakpoint-down(medium) { //mobile
+            
+            //interface mobile
+
+            margin-top: 5rem;
+            text-align: center;
+
+            img{
+                width: 18.75rem;
+                height: 18.75rem;
+
+            }
+
+            .publi{
+
+                margin: auto;
+                margin-bottom: 5rem;
+                
+            }
+            
+        }        
+    }
+}

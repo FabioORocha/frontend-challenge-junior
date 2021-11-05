@@ -1,0 +1,93 @@
+.footer{
+
+    margin-bottom: 0.625rem;
+    margin-top: 1.875rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+
+    .empresa{
+        text-align: center;
+    }
+
+    .footerTitle{
+
+        display: flex;
+        align-items: center;
+
+        .span{
+            flex: 1;
+
+        }
+
+        p{
+
+            font-weight: bold;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: center;
+        }
+
+        a{
+            color: black;
+        }
+
+        
+
+    }
+
+    @include breakpoint-up(large) { 
+        
+        //interface desktop
+
+
+        .footerContent{
+            text-align: center;
+            display:grid;
+            grid-template-columns: 15% 70% 15%;    
+        }
+
+        .menuContact input{
+
+                width: 18.75rem;
+                
+        }
+        
+    }
+
+    .menuContact{
+            
+        input{
+
+            outline: 0;
+            border-width: 0 0 2px;
+            
+        }
+        p{
+            padding-top: 1.25rem;
+            padding-bottom: 1.25rem;
+        }
+
+        button{
+            border:none;
+            outline: none;
+            background-color: $White;
+
+        }
+    }
+
+    @include breakpoint-down(medium) { 
+        
+        //interface mobile
+    
+        .menuContact input{
+            
+            width: 15.625rem;
+
+        }
+    }
+              
+}
+
+    

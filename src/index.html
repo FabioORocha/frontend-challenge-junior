@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../dist/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <script src="https://kit.fontawesome.com/5f9896320c.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <title>Frontend Challenge Junior</title>
+</head>
+
+<body>
+    <!-- Header menu -->
+    <header class="header">
+        <div class="overlay has-fade"></div>
+
+        <nav class="container flex flex-jc-sb flex-ai-c">
+            <a href="#" class="header__logo">
+                <img src="images\logo.png" alt="LOGO">
+            </a>
+
+            <a id="btnMenu" href="#" class="header__toggle hide-for-desktop">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+
+            <div class="header__links hide-for-mobile">
+                <a href="#">Menu</a>
+                <a href="#">Menu</a>
+                <a href="#">Menu</a>
+                <a href="#">Menu</a>
+                <a href="#">Menu</a>
+            </div>
+
+            <div class="header__icons hide-for-mobile">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="far fa-user-circle"></i></a>
+                <a href="#"><i class="fas fa-shopping-basket"></i></a>
+            </div>
+        </nav>
+
+        <div class="header__menu has-fade">
+
+            <a id="btnMenu" href="#"><i class="fas fa-search"> Menu </i></a>
+            <a id="btnMenu" href="#"><i class="far fa-user-circle"> Menu </i></a>
+            <a id="btnMenu" href="#"><i class="fas fa-shopping-basket"> Menu </i></a>
+            <a id="btnMenu" href="#">Menu</a>
+            <a id="btnMenu" href="#">Menu</a>
+            <a id="btnMenu" href="#">Menu</a>
+            <a id="btnMenu" href="#">Menu</a>
+            <a id="btnMenu" href="#">Menu</a>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <div class="section1">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="https://picsum.photos/id/661/1920/720"></div>
+                    <div class="swiper-slide"><img src="https://picsum.photos/id/1062/1920/720"></div>
+                    <div class="swiper-slide"><img src="https://picsum.photos/id/666/1920/720"></div>
+                    ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+
+            <div class="roundBanner">
+                <a href="#"><img src="https://picsum.photos/id/101/100"></a>
+                <a href="#"><img src="https://picsum.photos/id/202/100"></a>
+                <a href="#"><img src="https://picsum.photos/id/301/100"></a>
+                <a href="#"><img src="https://picsum.photos/id/404/100"></a>
+                <a href="#"><img src="https://picsum.photos/id/505/100"></a>
+                <a href="#"><img src="https://picsum.photos/id/606/100"></a>
+            </div>
+        </div>
+
+        <div class="section2">
+            <!--grid 1 -->
+            <div data-aos="fade-left">
+                <p>Lorem ipsum dolor sit amet</p>
+                <h2>Lorem ipsum</h2>
+                <p>Lorem ipsum dolor sit amet. Ab porro nulla in enim quis nam
+                    quibusdam internos sit quia deserunt et facere culpa et molestias
+                    dolor. Ut sapiente officiis ut magnam alias sed obcaecati maiores
+                    et maiores placeat ad illum animi id voluptatem similique non nihil
+                    repudiandae. Est odit consequatur qui aspernatur dicta sit voluptatem
+                    sapiente.
+                </p> 
+                <div class="arrowDown" data-aos="fade-down">
+                    <img src="images\arrow-down.png">
+                </div>
+                
+                
+            </div>
+            <!--grid 2 -->
+            <div>
+                <div class="card1" data-aos="fade-right"">
+                    <img src="https://picsum.photos/id/666/540">
+                    <div class="card__content">
+                        <h4><b>Lorem ipsum</b></h4>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+            <!--grid 3 -->
+            <div>
+                <div class="card2" data-aos="fade-left">
+                    <img src="https://picsum.photos/id/570/540">
+                    <div class="card__content">
+                        <h4><b>Lorem ipsum</b></h4>
+
+
+                    </div>
+
+                </div>
+
+                <div class="card3" data-aos="fade-left">
+                    <img src="https://picsum.photos/id/475/540">
+                    <div class="card__content">
+                        <h4><b>Lorem ipsum</b></h4>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section3">
+            <div class="grid1" data-aos="fade-up">
+                <div>
+                    <img src="https://picsum.photos/id/323/540">
+                </div>
+            </div>
+            <div class="grid2" data-aos="fade-left">
+                <div data-aos="fade-left">
+
+                    <p>Lorem ipsum dolor sit amet</p>
+                    <h2>Lorem ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet. Ab porro nulla in enim quis nam
+                        quibusdam internos sit quia deserunt et facere culpa et molestias
+                        dolor. Ut sapiente officiis ut magnam alias sed obcaecati maiores
+                        et maiores placeat ad illum animi id voluptatem similique non nihil
+                        repudiandae. Est odit consequatur qui aspernatur dicta sit voluptatem
+                        sapiente.
+                    </p>
+
+                    <div class="button flex flex-ai-c flex-jc-c">
+                        <button>Call-to-action</button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid3" data-aos="fade-right">
+                <div>
+                    <!-- Slider main container -->
+                    <div class="productSwiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="https://picsum.photos/id/270/540"></div>
+                            <div class="swiper-slide"><img src="https://picsum.photos/id/575/540"></div>
+                            <div class="swiper-slide"><img src="https://picsum.photos/id/478/540"></div>
+                            ...
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section4">
+
+            <div class="grid1" data-aos="fade-up">
+                <img src="https://picsum.photos/id/533/540">
+            </div>
+            <div class="grid2 " data-aos="fade-down">
+
+                <h3>@InstaLogo</h3>
+
+                <div class="publi">
+                    <p>
+                        Lorem ipsum dolor sit amet.
+                        Ab porro nulla in enim quis
+                        nam quibusdam internos sit
+                        quia deserunt et facere culpa
+                        et molestias dolor.
+                    </p>
+                </div>
+            </div>
+            <div class="grid3" data-aos="fade-up">
+                <img src="https://picsum.photos/id/374/540">
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="footerTitle">
+            <span class="span" ><hr></span>
+            <p >LOGO</p>
+            <span class="span"><hr></span>
+        </div>
+
+        <div class="footerContent">
+
+            <div class="submenu">
+
+                <h3>Menu</h3>
+                <div>
+                    <a href="#footer">Submenu</a>
+                    <a href="#footer">Submenu</a>
+                </div>
+                <div>
+                    <a href="#footer">Submenu</a>
+                    <a href="#footer">Submenu</a>
+                </div>
+                
+            </div>
+
+            <div class="menuContact">
+
+
+                <h3>Menu</h3>
+                <input type="text" placeholder="Email"> 
+                <button>Enviar <i class="fas fa-chevron-right"></i></button>
+
+            </div>
+            <div class="menuSocial">
+
+                <h3>Menu</h3>
+
+                <div>
+                    <a href=""><i class="fab fa-instagram-square"> Submenu</i></a>
+
+                </div>
+                <div>
+                    <a href=""><i class="fab fa-facebook-square"> Submenu</i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="empresa">
+            <p>@Vnda-Tecnologia para ecommerce- CNPJ 00.0000.000/0001-00</p>
+        </div>
+
+    </footer>
+
+    <script src="../dist/script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset:300,
+            duration:1000
+        });
+    </script>
+
+</body>
+
+</html>
