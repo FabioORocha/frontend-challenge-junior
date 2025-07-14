@@ -1,39 +1,28 @@
-# frontend-challenge-junior
+# 🧪 Teste Front-End — Vnda
 
-### Fábio Oliveira da Rocha
-#
-Projeto desenvolvido para a vaga de Front-end Júnior Vndas
+Este projeto foi desenvolvido como parte de um **teste técnico de front-end** para a empresa **Vnda**.  
+O desafio consistia em **reproduzir um wireframe fornecido** pela equipe da empresa, utilizando **HTML**, **Sass** e **JavaScript**, com automação de tarefas via **Gulp**.
 
-### Tecnologias
-- Html
-- Sass
-- Javascript
-- Gulp
+---
 
-##### Plugins
+## 🎯 Objetivo
 
-- Aos.js
+- Reproduzir fielmente o layout proposto no wireframe
+- Utilizar boas práticas de desenvolvimento front-end
+- Garantir um layout responsivo e funcional
+- Automatizar tarefas com Gulp (compilação de Sass, minificação, etc.)
 
-## Instalação
+---
 
-Para executar o projeto, basta fazer o clone deste repositório com:
+## 🛠️ Tecnologias Utilizadas
 
-```
-git clone https://github.com/FabioORocha/frontend-challenge-junior.git
-```
+- **HTML5** — estrutura semântica
+- **Sass (SCSS)** — pré-processador CSS com organização modular
+- **JavaScript (ES6)** — comportamento da interface
+- **Gulp** — automação de tarefas (build, watch, minify)
 
-E na pasta src executar:
+---
 
-```
-npm install
-```
+## 🖼️ Preview
 
-E depois gulp:
-
-```
-gulp
-```
-
-Ou para visualizar o projeto apenas, clone o mesmo e acesse a index.html na pasta dist.
-
-
+<img src="https://drive.google.com/uc?export=view&id=1DDyTOBhEGnr1k5zMqi2ixzAyxtCX1vPL" alt="Preview do layout teste Vnda" width="700" />
